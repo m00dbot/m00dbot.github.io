@@ -1,0 +1,334 @@
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100;
+  margin: 0;
+  font-family: Segoe UI, sans-serif;
+
+}
+
+/* Style tab links */
+.tablink {
+ background-color:white;
+
+  color: rgb(3, 37, 53);
+  float: left;
+  border: black ;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  border-color: black;
+  border-width: 1px;
+  border-bottom-style: outset;
+}
+
+.tablink:hover {
+  background-color: rgb(97, 35, 78);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: auto;
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+/* next button*/
+.genlink {
+  background-color: hsl(180, 20%, 30%);
+  border: rgb(153, 153, 153);
+  color: white;
+  padding: 15px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.genlink:hover {
+  background-color: hsl(209, 100%, 90%);
+  color: black;
+}
+
+ /*.quote {
+
+  color: white;
+  font-size: 38;
+  text-align: right;
+  display: block;
+
+  background-size: cover;
+  background-color: lightgray;
+
+
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    font-family: Bradley Hand ITC, cursive;
+
+}
+*/
+
+.homee{
+
+
+
+
+}
+
+
+
+.articles {
+
+  background-color: rgb(235, 255, 251);
+  float: bottom;
+
+    font-size: 20px;
+    color: black;
+
+    display: block;
+
+    margin-top: 600px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 7px;
+
+    border-style: solid;
+    border-color: hsl(240, 100%, 15%);
+    border-width: 1px;
+    border-radius: 10px;
+
+  }
+
+
+
+
+
+  .intro{
+
+  padding-top: 10px;
+    font-size: 24px;
+    text-align: justify;
+    display: block;
+    color: black;
+
+
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: -50px;
+
+  border-color: white;
+  border: solid;
+  border-width: 1px;
+  padding: 20px;
+
+  background opacity: 5;
+
+
+
+  }
+
+
+
+.About{
+
+
+
+  background-color: white;
+  padding-bottom: 50px;
+
+
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: auto;
+
+  text-align: center;
+
+
+
+}
+
+#Home {display: block; color: black; }
+#HomeSec {background-color: white; display:block; color: black; }
+#Generator {background-color: hsl(0, 0%, 80%); color: black;}
+#Contact {background-color: hsl(0, 0%, 80%); color: black;}
+#About {background-color: hsl(0, 0%, 80%); color: black;}
+
+
+
+/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfWfjdXVrR9JY9rzxnMMhpRbMtXVQsxmxtvpsK95SfrWiUmV47*/
+
+/*Moodbot header*/
+header{
+  margin-top: -50px;
+  margin-bottom: -60px;
+  padding:13px;
+  color: rgb(255, 88, 88);
+  background-color: white;
+  style: bold;
+  text-align: center;
+  font-size: 32px;
+  font-family: Book Antiqua, serif;
+
+}
+
+.About{
+
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left:-200px;
+  margin-right: 100px;
+  padding:5px;
+  color: gray;
+  text-align: center;
+  font-size: 32px;
+
+}
+
+/*About Us*/
+
+.header2{
+
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+
+
+/*generator html columns*/
+.genColumn1 {
+  float: left;
+  width: auto;
+  height: 700%;
+  background-color: hsl(0, 0%, 95%);
+  display: block;
+  text-align: center;
+  margin:70px;
+  /* padding:70px; */
+}
+.genColumn2 {
+  float: right;
+  width: auto;
+  height: 700%;
+  background-color: hsl(0, 0%, 94%);
+  display: block;
+  text-align: center;
+  margin: 70px;
+  /* padding: 70px; */
+}
+
+.watchGenerated {
+  font-size: 50px;
+  color: black;
+  font-family: sans-serif;
+}
+
+#my_centered_buttons { display: fex; justify-content: center; }
+/*generator tab columns*/
+.genTabColumnRight {
+  text-align: center;
+  float: right;
+  width: 48%;
+
+  background-color: rgb(235, 255, 251);
+  display: block;
+  /* padding-bottom: 300px; */
+
+
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  /* padding-bottom: 300px; */
+
+  /* margin-top: -480px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.genTabColumnLeft {
+  text-align: center;
+  float: left;
+  width: 48%;
+
+  background-color: rgb(235, 255, 251);
+  display: inline;
+  /* padding-bottom: 300px; */
+
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-left: 10px;
+
+  /* margin-top: -480px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.genSubmitButton {
+
+  background-color: hsl(240, 70%, 90%);
+  border: black;
+  color: white;
+  padding: 15px 32px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 500px;
+
+  display: block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+  text-align: center;
+}
+
+
+.genSubmitButton:hover {
+  background-color:hsl(240, 40%, 90%);
+  color: black;
+}
+
+
+/* RADIO BUTTONS */
+.moodButton {
+display: none !important;
+
+}
+
+.label_item {
+opacity: 0.1;
+}
+
+.moodButton:checked + label {
+opacity: 1;
+}
+
+.label {
+  cursor: pointer;
+}
+.
+.timeButton {
+display: none !important;
+}
+
+.time_item {
+opacity: 0.1;
+}
+
+.timeButton:checked + label {
+opacity: 1;
+}

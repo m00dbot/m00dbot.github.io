@@ -1,0 +1,33 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bot.css">
+    <title></title>
+  </head>
+  <body>
+    <div class= "genRow">
+    <div class= "genColumn1">
+      <h1 class="genHeading"> Watch this: </h1>
+      <p id="watchGenerated"> </p>
+      <img id="watchGeneratedImg" src= "" width= 450px>
+    </div>
+    </div>
+
+    <div class= "genRow">
+    <div class= "genColumn2">
+      <h1 class= "genHeading"> Listen to this: </h1>
+      <iframe id="listenGenerated" src="https://open.spotify.com/embed/playlist/2mfgMOt57yljefwTUMnWkJ"
+       width="500" height="680" frameborder="100" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    </div>
+
+
+    <script src="moodBot.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    console.log("parameterMood="+getUrlParameter('mood'));
+    console.log("parameterTime="+getUrlParameter('time'));
+    </script>
+  </body>
+
+</html>
