@@ -1,0 +1,375 @@
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100;
+  margin: 0;
+  font-family: Segoe UI, sans-serif;
+
+}
+
+/* Style tab links */
+.tablink {
+ background-color:white;
+
+  color: rgb(53,92,125);
+  float: left;
+  border: black ;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  border-color: rgb(159,99,157);
+  border-width: 3px;
+  font-weight: bold;
+  border-bottom-style: outset;
+}
+
+.tablink:hover {
+  background-color: rgb(185,208,246);
+;
+  color: white;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: auto;
+  background-image: url(butterflies.gif);
+  background-repeat: repeat-x;
+  background-size: contain;
+
+}
+
+/* next button*/
+.genlink {
+  background-color: rgb(159,99,157);
+  border: rgb(153, 153, 153);
+  color: white;
+  padding: 15px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.contactlink{
+  background-color: rgb(159,99,157);
+  border: rgb(153, 153, 153);
+  color: white;
+  padding: 15px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.genlink:hover {
+  background-color: hsl(209, 100%, 90%);
+  color: black;
+}
+
+ /*.quote {
+
+  color: white;
+  font-size: 38;
+  text-align: right;
+  display: block;
+
+  background-size: cover;
+  background-color: lightgray;
+
+
+    margin-top: -60px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    font-family: Bradley Hand ITC, cursive;
+
+}
+*/
+
+
+
+
+ .articles {
+text-align: left;
+padding-left:30px
+
+  }
+
+
+
+
+
+  .intro{
+
+  text-align: center;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  color: gray;
+
+
+  width: 80%;
+  height: 310%;
+
+  border-color: rgb(159,99,157);
+  border: solid;
+  border-width: 2px;
+
+  padding-top: 40px;
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: gray;
+  background opacity: 5;
+  background-color: white;
+
+
+
+  }
+
+
+
+#Home {display: block; color: black; }
+#HomeSec { display:block; color: black; }
+#Generator {background-color:color: white;}
+#Contact {background-color: color: white;}
+#About {background-color:  white; color: black;}
+
+
+
+/*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfWfjdXVrR9JY9rzxnMMhpRbMtXVQsxmxtvpsK95SfrWiUmV47*/
+
+/*Moodbot header*/
+header{
+  margin-top: -50px;
+  margin-bottom: -60px;
+  padding:13px;
+  color: rgb(159,99,157);
+  background-color: white;
+  style: bold;
+  text-align: center;
+  font-size: 32px;
+  font-family: Book Antiqua, serif;
+
+
+}
+
+.About{
+
+  text-align: center;
+  align-self: center;
+  display: block;
+  background-size: cover;
+  background-color: white;
+  width: 80%;
+  height: 400%;
+
+  border-color: rgb(159,99,157);
+  border: solid;
+  border-width: 2px;
+
+  padding-top: 40px;
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: gray;
+  font-size: 18px;
+
+}
+
+/*About Us*/
+
+.header2{
+  /* text-align: center; */
+
+  color: white;
+  font-size: 32px;
+
+  margin-top: auto;
+  margin-bottom: 5px;
+  margin-left: -5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  color: rgb(159,99,157);
+  width: 33%;
+
+}
+
+.contacttext{
+
+  background-color: white;
+
+  width: 80%;
+  height: 800%;
+
+  border-color: rgb(159,99,157);
+  border: solid;
+  border-width: 2px;
+
+  padding-top: 40px;
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: gray;
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.surveybox{
+  align-self: center;
+  padding-left: 270px;
+
+}
+
+/*generator html columns*/
+.genColumn1 {
+  float: left;
+  width: 45%;
+  height: 800%;
+  background-color: rgb(185,208,246);
+  display: block;
+  text-align: center;
+  margin:30px;
+  padding-top:20px;
+}
+.genColumn2 {
+  float: right;
+  width: 45%;
+  height: 800%;
+    background-color:rgb(185,208,246);
+  display: block;
+  text-align: center;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+.watchGenerated {
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+}
+
+#my_centered_buttons { display: fex; justify-content: center; }
+/*generator tab columns*/
+.genTabColumnRight {
+  text-align: center;
+  float: right;
+  width: 48%;
+  height:240%;
+  background-color: rgb(185,208,246);
+  display: block;
+
+  /* border-color: black; */
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.genTabColumnLeft {
+  text-align: center;
+  /* float: left; */
+  width: 48%;
+  height: 240%;
+
+  background-color: rgb(185,208,246);
+  display: inline-block;
+
+  /* border-color: black; */
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.genSubmitButton {
+
+  background-color: hsl(240, 70%, 90%);
+  border: black;
+  color: white;
+  padding: 15px 32px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1000px;
+
+  display: block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+  text-align: center;
+}
+
+
+.genSubmitButton:hover {
+  background-color:hsl(240, 40%, 90%);
+  color: black;
+}
+
+
+/* RADIO BUTTONS */
+.moodButton {
+display: none !important;
+
+}
+
+.label_item {
+opacity: 0.1;
+}
+
+.moodButton:checked + label {
+opacity: 1;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.timeButton {
+display: none !important;
+}
+
+.time_item {
+opacity: 0.1;
+}
+
+.timeButton:checked + label {
+opacity: 1;
+}
+
+footer {
+background-color: rgb(185,208,246);
+height: 190%;
+padding-top: 20px;
+}
+
+.genLabel{
+  color: black;
+  opacity:5;
+}
