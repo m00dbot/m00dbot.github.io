@@ -49,7 +49,7 @@ var watch = {
   "movie4":{ "name": "Pitch Perfect","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y6gtuy7w"},
   "movie5":{ "name": "Mean Girls","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y69v3eqx"},
   "movie6":{ "name": "The Princess Bride","mood": "happy","time":"reallyLong", "img":"https://is1-ssl.mzstatic.com/image/thumb/Video2/v4/21/74/82/217482c0-794e-481d-3d29-bfafaac2b8d6/pr_source.lsr/268x0w.png"},
-  "movie7":{ "name": "Legally Blonde","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y259a5rv"},
+  "movie7":{ "name": "Legally Blonde","mood": "happy","time":"reallyLong", "img":"https://is1-ssl.mzstatic.com/image/thumb/Video2/v4/21/74/82/217482c0-794e-481d-3d29-bfafaac2b8d6/pr_source.lsr/268x0w.png"},
   "movie8":{ "name": "Toy Story 4","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y6n7t3rq"},
   "movie9":{ "name": "To All The Boys I've Loved Before","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y6hsyllr"},
   "movie10":{ "name": "La La Land","mood": "happy","time":"reallyLong", "img":"https://tinyurl.com/y3uezyk3"},
